@@ -1,77 +1,247 @@
-* { margin: 0px; padding: 0px; }
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
-#boton { margin: 20px; text-align: center; }
+#boton {
+  margin: 20px;
+  text-align: center;
+}
 
-#persona1 { margin-top: 10px; }
+#persona1 {
+  margin-top: 10px;
+}
 
-#persona2 { margin-top: 10px; }
+#persona2 {
+  margin-top: 10px;
+}
 
-#persona3 { margin-top: 10px; }
+#persona3 {
+  margin-top: 10px;
+}
 
-#experienciaspasadas { background-color: rgba(128, 128, 128, 0.414); padding: 2px; }
+#experienciaspasadas {
+  background-color: rgba(128, 128, 128, 0.414);
+  padding: 2px;
+}
 
-#logo { height: 100px; width: auto; }
+#logo {
+  height: 100px;
+  width: auto;
+}
 
-#carrousel { margin: 0%; padding: 0%; border-style: solid; }
+#carrousel {
+  margin: 0%;
+  padding: 0%;
+  border-style: solid;
+}
 
-.ticktabla { width: 50%; height: auto; }
+.ticktabla {
+  width: 50%;
+  height: auto;
+}
 
-.cruztabla { width: 50%; height: auto; }
+.cruztabla {
+  width: 50%;
+  height: auto;
+}
 
-.tipografia { font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+.tipografia {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
-.borde { border-style: solid; border-color: rgba(128, 128, 128, 0.178); }
+.borde {
+  border-style: solid;
+  border-color: rgba(128, 128, 128, 0.178);
+}
 
-.tipografia2 { font-size: 12px; }
+.tipografia2 {
+  font-size: 12px;
+}
 
-body { overflow-x: hidden; }
+body {
+  overflow-x: hidden;
+}
+body #h2 {
+  margin-left: 90px;
+  font-size: 50px;
+  margin-top: 0px;
+}
+body #h1 {
+  font-size: 72px;
+  margin-left: 90px;
+  height: 0px;
+  margin-bottom: 0px;
+  display: inline-block;
+  text-align: left;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
 
-body #h2 { margin-left: 90px; font-size: 50px; margin-top: 0px; }
+footer {
+  background-color: rgba(128, 128, 128, 0.414);
+}
 
-body #h1 { font-size: 72px; margin-left: 90px; height: 0px; margin-bottom: 0px; display: inline-block; text-align: left; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+#contactanos {
+  text-align: center;
+}
 
-footer { background-color: rgba(128, 128, 128, 0.414); }
+table {
+  border-style: solid;
+}
+table tr {
+  margin: 0px;
+  padding: 0px;
+}
+table tr td {
+  border: solid;
+}
 
-#contactanos { text-align: center; }
+#videodefondo, #videosurf, #videofondo2 {
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
 
-table { border-style: solid; }
+@media (max-width: 750px) {
+  .videoencelu {
+    background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+    background-size: cover;
+  }
+  .videoencelu #videodefondo {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .videoencelu {
+    background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+    background-size: cover;
+  }
+  .videoencelu #videosurf {
+    display: none;
+  }
+}
 
-table tr { margin: 0px; padding: 0px; }
+section h1, section h2 {
+  color: rgb(119, 112, 112);
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
+}
+section h1 {
+  font-size: 6rem;
+  margin-top: 30vh;
+}
+section h2 {
+  font-size: 17px;
+}
 
-table tr td { border: solid; }
+#porqueelegirnos {
+  margin-bottom: 15%;
+}
 
-#videodefondo, #videosurf { width: 100vw; height: 100vh; object-fit: cover; position: fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: -1; }
+.sinfondo {
+  background-color: none !important;
+}
 
-@media (max-width: 750px) { #videodefondo { display: none; }
-  body { background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat; background-size: cover; } }
+.especial {
+  font-size: 23px;
+}
 
-@media (max-width: 750px) { #videosurf { display: none; }
-  body { background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat; background-size: cover; } }
+#cuadro {
+  background-color: #4a4e58;
+}
 
-section h1, section h2 { color: #777070; font-family: Trebuchet MS; font-weight: bold; text-align: center; }
+#logocuadro {
+  width: 250px;
+}
 
-section h1 { font-size: 6rem; margin-top: 30vh; }
+#letrasmaincuadro {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
 
-section h2 { font-size: 17px; }
+#letrachicacuadro {
+  width: 17rem;
+  font-family: "Courier New", Courier, monospace;
+}
 
-#porqueelegirnos { margin-bottom: 15%; }
+.rounded-4 {
+  border-radius: 60px;
+}
 
-.sinfondo { background-color: none !important; }
+.rounded-5 {
+  border-radius: 30px;
+}
 
-.especial { font-size: 23px; }
+.navbar {
+  --bs-bg-opacity: 0;
+}
 
-#cuadro { background-color: #4a4e58; }
+#flecha {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 30%;
+}
 
-#logocuadro { width: 250px; }
+span h1 {
+  font-family: "Quicksand", sans-serif;
+  margin-top: 100px;
+}
 
-#letrasmaincuadro { font-family: 'Courier New', Courier, monospace; font-weight: 600; }
+#fotonuestroobjetivo {
+  border: 3px;
+  border-radius: 20px;
+  margin-right: 15px;
+  padding: 0px;
+  width: 200px;
+  height: 300px;
+}
 
-#letrachicacuadro { width: 17rem; font-family: 'Courier New', Courier, monospace; }
+.tipografia3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 17px;
+  border-radius: 30px;
+}
 
-.rounded-4 { border-radius: 60px; }
+#nuestroobjetivo {
+  font-family: "Quicksand", sans-serif;
+  text-align: left;
+}
 
-.rounded-5 { border-radius: 30px; }
+#h2nuestroobjetivo {
+  text-align: left;
+  background-color: rgba(184, 176, 176, 0.6117647059);
+}
 
-.navbar { --bs-bg-opacity: 0; }
+#comilla {
+  font-size: 30px;
+}
 
-#flecha { display: block; margin-left: auto; margin-right: auto; width: 50%; margin-bottom: 30%; }
+#pnuestroobjetivo {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 20%;
+}
+
+.boton {
+  background-color: rgb(65, 114, 170);
+  color: #fff;
+  border-radius: 30px;
+  border-color: rgb(65, 114, 170);
+  transition: transform 0.2s;
+}
+
+.boton:hover {
+  transform: scale(1.5);
+}/*# sourceMappingURL=estilos.css.map */

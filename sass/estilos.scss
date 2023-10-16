@@ -109,7 +109,7 @@ td{
     }
 }
 
-#videodefondo, #videosurf {
+#videodefondo, #videosurf, #videofondo2{
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -120,21 +120,25 @@ td{
     bottom: 0;
     z-index: -1;
   }
+
+  .videoencelu{
+
+  
   @media (max-width: 750px) {
     #videodefondo { display: none; }
-    body {
+    
       background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
       background-size: cover;
-    }
+    
 }
 @media (max-width: 750px) {
     #videosurf { display: none; }
-    body {
+    
       background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
       background-size: cover;
-    }
+    
 }
-
+}
 
 section{
     
@@ -194,4 +198,52 @@ section{
   margin-right: auto;
   width: 50%;
   margin-bottom: 30%;
+}
+
+span{
+    
+    h1{  font-family: 'Quicksand', sans-serif; margin-top: 100px;
+    }
+
+}
+#fotonuestroobjetivo{
+    border: 3px; border-radius: 20px;
+   margin-right: 15px;
+    padding: 0px;
+    width: 200px; height:300px;
+}
+
+.tipografia3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    border-radius: 30px;
+}
+#nuestroobjetivo{
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+}
+#h2nuestroobjetivo{
+    text-align: left;
+    background-color: #b8b0b09c;
+}
+#comilla{
+    font-size: 30px;
+}
+#pnuestroobjetivo{
+    text-align: center;
+}
+.footer{
+    margin-top: 20%;
+    
+}
+.boton{
+    background-color: rgb(65, 114, 170);
+    color: #fff;
+    border-radius: 30px;
+    border-color: rgb(65, 114, 170);
+    transition: transform .2s; 
+}
+
+.boton:hover {
+    transform: scale(1.5); 
 }
