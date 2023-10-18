@@ -52,7 +52,7 @@
 
 .borde {
   border-style: solid;
-  border-color: rgba(128, 128, 128, 0.178);
+  border-color: rgba(128, 128, 128, 0.414);
 }
 
 .tipografia2 {
@@ -155,7 +155,7 @@ section h2 {
 }
 
 #cuadro {
-  background-color: #4a4e58;
+  background-color: rgba(128, 128, 128, 0.414);
 }
 
 #logocuadro {
@@ -236,7 +236,6 @@ span h1 {
 
 .boton {
   background-color: rgb(65, 114, 170);
-  color: #fff;
   border-radius: 30px;
   border-color: rgb(65, 114, 170);
   transition: transform 0.2s;
